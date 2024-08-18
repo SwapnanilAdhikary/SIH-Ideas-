@@ -1,0 +1,30 @@
+WMS APi
+WMS python library 
+frame INterpolation API
+Leaflet(interactive map)
+Mapbox(mapbox gl)
+VEDAS/MOSDAC/BHUVAN (dataset)
+use Webgis to build a opensource mapbox like environment 
+
+
+
+
+Bitan = connecting with webgis dev
+Individual components are available, comprehensive and proven solution does not exist
+
+Shrutakeerti -OGC , WMS python, and Isro related data search , connact previous generation 
+
+Swapnanil - concnat previos gen
+
+
+
+
+Bonus points for utilisation of on-device GPUs/NPUs available in modern desktop/mobile devices. (not mandatory)
+
+
+use object detection on the map video 
+
+
+bitant + vishal = Web gis  developmet 
+
+ 
