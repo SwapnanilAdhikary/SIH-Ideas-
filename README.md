@@ -31,6 +31,7 @@ i am adding research papers for reference
                                  | |pakisthan|        |            what WMS services ? 
                                  | |video of pakisthan|     what kind of weather are they talking about? what kind of images 
                                  |____________________|     are generated from the satellite
-                                 
+21 August 2024 , time to lock in again, gonna try to work on some webgis, with openlayers
+we should try to add features later on which can be beneficial for users 
                               
                               
