@@ -33,5 +33,8 @@ i am adding research papers for reference
                                  |____________________|     are generated from the satellite
 21 August 2024 , time to lock in again, gonna try to work on some webgis, with openlayers
 we should try to add features later on which can be beneficial for users 
+
+
+The pretained model that is being used is- FILM ( FOR INFO)
                               
                               
