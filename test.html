@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Leaflet Video Overlay with Loop</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <style>
+        .map {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map" class="map"></div>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="leaflet-routing-machine.js"></script>
+    <script>
+        var map = L.map('map').setView([20.5937, 78.9629], 4.5);
+
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 50,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        var videoUrls = [
+            './map.mp4'
+        ];
+        var errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+        var latLngBounds = L.latLngBounds([[15, 40], [30, 80]]);
+
+        var videoOverlay = L.videoOverlay(videoUrls, latLngBounds, {
+            opacity: 1,
+            errorOverlayUrl: errorOverlayUrl,
+            interactive: true,
+            autoplay: true,
+            muted: true,
+            playsInline: true
+        }).addTo(map);
+
+        // Access the video element and set it to loop
+        var videoElement = videoOverlay.getElement();
+        videoElement.loop = true;  // Set the video to loop continuously
+
+        // Optionally, ensure the video starts playing automatically
+        videoElement.play();
+
+    </script>
+</body>
+</html>
