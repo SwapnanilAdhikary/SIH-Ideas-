@@ -36,5 +36,9 @@ we should try to add features later on which can be beneficial for users
 
 
 The pretained model that is being used is- FILM ( FOR INFO)
-                              
+
+
+26th August 2024
+The overlay has started and is implemented with Leaflet .
+Not yet figured out with openlayers and the total masking has not yet happened .
                               
