@@ -35,7 +35,8 @@ i am adding research papers for reference
 we should try to add features later on which can be beneficial for users 
 
 
-The pretained model that is being used is- FILM ( FOR INFO)
+The pretained model that is being used is- FILM ( FOR INFO) - Update i fine tuned the model for weather based applications
+
 
 
 26th August 2024
