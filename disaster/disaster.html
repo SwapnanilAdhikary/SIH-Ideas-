@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .disaster-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .disaster-event {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .disaster-event:last-child {
+            border-bottom: none;
+        }
+
+        .disaster-event h2 {
+            margin-top: 0;
+            color: #d9534f;
+        }
+
+        .disaster-event p {
+            margin: 5px 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .disaster-event p span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .no-data {
+            text-align: center;
+            color: #777;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Latest Disasters by Country</h1>
+    <div class="disaster-container" id="disaster-data">
+        <!-- Dynamic content will be injected here -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
